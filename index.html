@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test Your Maths Skills</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div id="container1">
+    
+    <!-- score -->
+    <div id="score">
+        Score: <span id="scorevalue">0</span>
+    </div>
+
+    <div id="person">
+            Name: <span id="name" ></span>
+        </div>
+
+    <!-- timer -->
+    <div id="timer">
+        <span id="timevalue">5</span>
+    </div>
+    <!-- correct message -->
+    <div id="correct">
+            Correct
+    </div>
+
+    <!-- wrong message -->
+    <div id="wrong">
+            Wrong!
+    </div>
+
+     <!-- question -->
+    <div style="margin-top: 300px">
+            <div id="question">
+                    <!-- What is blah blah blah? -->
+            </div>
+
+            <!-- options -->
+            <div id="options"> <!--buttons 1-->
+                <div id="btns1">
+                    <div id="option1" onclick="resolve(1)" class="option"></div>
+                    <div id="option2" onclick="resolve(2)" class="option"></div>
+                </div>
+                <div id="btns2"> <!--buttons 2-->
+                    <div id="option3" onclick="resolve(3)" class="option"></div>
+                    <div id="option4" onclick="resolve(4)" class="option"></div>
+                </div>
+            </div>
+    </div>
+    
+   
+    <div id="startreset">
+        Start Quiz
+    </div>
+    <div id="gameOver">
+        <!-- <img src="travelbeta-logo.svg" style="height: 300px; width: 300px; padding-top: 300px"> -->
+        <!-- <p>Game Over!</p>
+        <p>Your score</p> -->
+    </div>  
+
+
+   
+</div>
+
+
+
+    <script src="game.js"></script>
+
+</body>
+</html>
